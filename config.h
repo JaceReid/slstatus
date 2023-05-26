@@ -66,7 +66,7 @@ static const struct arg args[] = {
 	//{ datetime, "%s",           "%F %T" },
     //{ netspeed_rx, "%sB/s  ", "enp0s3" },
 	{ cpu_perc, " %s%% | ", NULL	      },
-	{ ram_perc, " %s%% | ", NULL	      },
+	{ ram_perc, "󰍛 %s%% | ", NULL	      },
 //    { run_command, " %s%% | ", "pulsemixer --get-volume | awk '{print $1}'" },
     { run_command, "%s | ", "~/scripts/volume.sh" },
     { run_command, "%s | ", "~/scripts/charge.sh"       },
